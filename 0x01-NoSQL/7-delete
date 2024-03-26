@@ -1,0 +1,3 @@
+// script that deletes a document in the collection
+
+db.school.deleteMany({name="Holberton school"})
